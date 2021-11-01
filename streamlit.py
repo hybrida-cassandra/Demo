@@ -14,7 +14,7 @@ def load_model():
 @st.cache()
 def load_data():
     print('loading data')
-    df = pd.read_csv('Export Spedire - dataset_spedire.csv')
+    df = pd.read_csv('spedire.csv')
     return df
 
 
